@@ -1,0 +1,38 @@
+.TableComponent{
+}
+.TableComponent{
+    display: flex;
+    margin: auto;
+    margin-top: 19px;
+    width: 70%;
+    height: 100%;
+    box-shadow: 1px 10px 5px #888888;
+    font-size: small;
+}
+
+.Info-Layout-Left{
+    background-color: gainsboro ;
+    margin: auto;
+    height: 100%;
+    width: 33%;
+    padding: 10px;
+}
+.Info-Layout-Middle{
+    background-color:  lightgrey;
+    margin: auto;
+    width: 33%;
+    height: 100%;
+    padding: 10px;
+
+}
+.Info-Layout-Right{
+    background-color: gainsboro ;
+    margin: auto;
+    width: 33%;
+    height: 100%;
+    padding: 10px;
+}
+
+.labal{
+
+}
