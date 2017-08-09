@@ -20,7 +20,7 @@ h2{
   background: url(headerBack1.jpg);
   background-size: 70% 100%;
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  /*background-attachment: fixed;*/
   background-position: center;
   height: 200px;
   padding: 20px;

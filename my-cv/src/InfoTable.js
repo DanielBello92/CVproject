@@ -3,6 +3,7 @@
  */
 import React, { Component } from 'react';
 import './InfoTable.css';
+import InfoComponent from './InfoComponent'
 
 
 class InfoTable extends Component {
@@ -19,28 +20,7 @@ class InfoTable extends Component {
                     <p>My name is Daniel Bello I am 3rd year student. </p>
                 </div>
                 <div className="Info-Layout-Middle">
-                    <h3>Personal info</h3>
-                    <div>
-                        <p className="label" >Date of birth: </p>
-                        <p className="info">28/04/92</p>
-                    </div>
-                    <div>
-                        <p className="label" >Place of birth: </p>
-                        <p className="info"> Israel</p>
-                    </div>
-                    <div>
-                        <p className="label" >Address: </p>
-                        <p className="info"> 8 Ami St, Rehovot</p>
-                    </div>
-                    <div>
-                        <p className="label">Cell Phone:</p>
-                        <p className="info"> 054-9989741</p>
-                    </div>
-                    <div>
-                        <p className="label" >Email: </p>
-                        <p className="info"> dbello96@gmail.com</p>
-                    </div>
-
+                    <InfoComponent/>
                 </div>
                 <div className="Info-Layout-Right">
                     <h3>Community Involvement</h3>

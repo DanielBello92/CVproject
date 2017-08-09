@@ -10,7 +10,7 @@ class App extends Component {
       this.state = {
           searchText : '',
           numOfImageBoxs : 0,
-          imagesList : [],
+          infoList : [],
           pageNumber : 0,
           numOfImagesPerPage : 5
       }
