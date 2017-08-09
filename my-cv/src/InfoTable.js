@@ -7,7 +7,9 @@ import InfoComponent from './InfoComponent'
 
 
 class InfoTable extends Component {
-
+    constructor(props) {
+        super(props);
+    }
 
     render() {
         console.log("infoTable in!")
@@ -16,11 +18,15 @@ class InfoTable extends Component {
             <div className="TableComponent">
                 <div className="Info-Layout-Left">
                     <h3>Who am i?</h3>
-                    <p>My name is Daniel Bello I am 3rd year student. </p>
-                    <p>My name is Daniel Bello I am 3rd year student. </p>
+                    <div className="whoiam-info">
+                        <p>My name is Daniel Bello I am 3rd year student. </p>
+                        <p>I am a professional sportsman in the Taekwondo national team.</p>
+                        <p> I am a fast and self-learner and a hard worker.
+                            In addition, I know to work with a team and individual.</p>
+                    </div>
                 </div>
                 <div className="Info-Layout-Middle">
-                    <InfoComponent/>
+                    <InfoComponent infoList={this.props.infoList}/>
                 </div>
                 <div className="Info-Layout-Right">
                     <h3>Community Involvement</h3>

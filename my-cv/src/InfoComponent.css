@@ -1,11 +1,14 @@
 .label{
     font-weight: bold;
     font-size: x-small;
+    width:  50%;
 }
 .info{
     font-size: x-small;
+    width:  50%;
 }
-.Info-Layout-Middle{
+.Info-Layout{
     display: flex;
+    padding: 4%;
 
 }

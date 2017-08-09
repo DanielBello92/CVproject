@@ -13,21 +13,21 @@
 .Info-Layout-Left{
     background-color: gainsboro ;
     width: 33%;
-    padding: 10px;
+    padding: 30px;
 }
 .Info-Layout-Middle{
     background-color:  lightgrey;
     width: 33%;
 
-    padding: 10px;
+    padding: 30px;
 
 }
 .Info-Layout-Right{
     background-color: gainsboro ;
     width: 33%;
-    padding: 10px;
+    padding: 30px;
 }
 
-.labal{
-
+.whoiam-info{
+    font-size: small;
 }
