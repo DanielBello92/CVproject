@@ -1,0 +1,31 @@
+.TableComponent{
+    display: flex;
+    margin: auto;
+    margin-top: 9px;
+    width: 70%;
+    border-top: 11px solid #32afe3;
+    box-shadow: 1px 10px 5px #888888;
+    font-size: small;
+}
+
+.Info-Layout-Left{
+    background-color: gainsboro ;
+    width: 33%;
+    padding: 30px;
+}
+.Info-Layout-Middle{
+    background-color:  lightgrey;
+    width: 33%;
+
+    padding: 30px;
+
+}
+.Info-Layout-Right{
+    background-color: gainsboro ;
+    width: 33%;
+    padding: 30px;
+}
+
+.whoiam-info{
+    font-size: small;
+}

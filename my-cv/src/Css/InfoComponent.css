@@ -1,0 +1,14 @@
+.label{
+    font-weight: bold;
+    font-size: 10pt;
+    width:  50%;
+}
+.info{
+    font-size: 10pt;
+    width:  50%;
+}
+.Info-Layout{
+    display: flex;
+    padding: 4%;
+
+}

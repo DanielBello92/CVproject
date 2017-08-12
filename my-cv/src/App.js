@@ -1,7 +1,13 @@
 import React, { Component } from 'react';
-import NavigationBar from '././NavigationBar';
-import InfoTable from './InfoTable'
-import './App.css';
+import NavigationBar from './Components/NavigationBar';
+import InfoTable from './Components/InfoTable'
+import Skills from './Components/Skills'
+import Education from './Components/Education'
+import Projects from './Components/Projects'
+import Hobbes from './Components/Hobbes'
+import Contact from './Components/Contact'
+import SocialBar from './Components/SocialBar'
+import './Css/App.css';
 
 class App extends Component {
 
@@ -18,23 +24,45 @@ class App extends Component {
           buttonName : "HOME"
       }
   }
-  componentActive(){
-
-      return(<InfoTable infoList={this.state.infoList}/>)
+  chosePage = (passed) => {
+      this.setState({buttonName : passed})
+  }
+  componentActive = ()=> {
+    if(this.state.buttonName === "HOME"){
+        return(<InfoTable infoList={this.state.infoList} buttonName={this.state.buttonName}/>)
+    }
+    else if(this.state.buttonName === "EDUCATION"){
+        return(<Education/>)
+    }
+    else if(this.state.buttonName === "PROJECTS"){
+        return(<Projects/>)
+    }
+    else if(this.state.buttonName === "SKILLS"){
+        return(<Skills/>)
+    }
+    else if(this.state.buttonName === "HOBBES"){
+        return(<Hobbes/>)
+    }
+    else if(this.state.buttonName === "CONTACT"){
+        return(<Contact/>)
+    }
   }
   render() {
     return (
       <div className="App">
         <div className="App-header">
-          <h2>Daniel Bello</h2>
+          <h2 class>Daniel Bello</h2>
             <h4>Software Engineer</h4>
           <button className='resume-button'>Download My Resume</button>
         </div>
         <div>
-          <NavigationBar/>
+          <NavigationBar chosePage={this.chosePage} buttonName={this.state.buttonName}/>
         </div>
         <div>
-          <InfoTable infoList={this.state.infoList} buttonName={this.state.buttonName}/>
+            {this.componentActive()}
+        </div>
+        <div>
+            <SocialBar/>
         </div>
       </div>
 

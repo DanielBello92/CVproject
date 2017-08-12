@@ -1,0 +1,52 @@
+.ProjectsComponent{
+    width: 70%;
+    margin: auto;
+    background-color: lightgray;
+    margin-top: 0.5%;
+    box-shadow: 1px 10px 5px #888888;
+}
+.center-Layout{
+    margin: auto;
+    width: 50%;
+    /* border: 1px solid; */
+    height: 182px;
+    text-align: center;
+    padding: 73px;
+}
+.projects-Layout{
+     border-top: 1px solid deepskyblue;
+}
+#button{
+    width: 31px;
+    height: 31px;
+    border-radius: 44px;
+    border-style: outset;
+    background-color: deepskyblue;
+    margin: auto;
+    margin-right: 67px;
+    border: 1px solid;
+    margin-left: 61px;
+    /* padding: 6px; */
+    margin: -100px;
+    background: linear-gradient(deepskyblue, skyblue);
+}
+.flotingButtons{
+    margin: auto;
+    height: 100%;
+    z-index: 2;
+}
+.project-titles{
+    display: flex;
+    /* text-align: center; */
+    margin: auto;
+}
+
+.project-title{
+    width: 33%;
+    color: black;
+    font-family: cursive;
+    text-shadow: #000 0px 0px 1px;
+}
+.project-images{
+    width: 87px;
+}

@@ -1,0 +1,60 @@
+.SkillsComponent{
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    width: 70%;
+    height: 835px;
+    margin: auto;
+    align-content: center;
+    background-color: lightgrey;
+    box-shadow: 1px 10px 5px #888888;
+    margin-top: 1%;
+}
+.head{
+    padding-top: 35px;
+    -webkit-text-stroke-width: thin;
+    -webkit-text-stroke-color: deepskyblue;
+    color: aliceblue;
+}
+.Skills-Layout{
+    width: 80%;
+    height: 800px;
+    margin: auto;
+    padding-top: 120px;
+}
+
+.bars-Component{
+    width: 80%;
+}
+
+.bar-expand{
+    height: 35px!important;
+}
+
+.bar-contain{
+    height: 35px!important;
+    margin-bottom: 24px!important;
+}
+
+#slide-bars{
+    display: flex;
+    margin-top: 8px;
+    height: 900px;
+    background: lightgrey;
+    -webkit-animation: slide 1s forwards;
+    -webkit-animation-delay: 1s;
+    animation: slide 0.5s forwards;
+    animation-delay: 0.5s;
+    left: -90%;
+    width: 78%;
+    position: absolute;
+}
+
+
+@-webkit-keyframes slide {
+    100% { left: 10%; }
+}
+
+@keyframes slide {
+    100% { left: 10%; }
+}
