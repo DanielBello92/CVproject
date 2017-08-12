@@ -4,9 +4,10 @@ import InfoTable from './Components/InfoTable'
 import Skills from './Components/Skills'
 import Education from './Components/Education'
 import Projects from './Components/Projects'
-import Hobbes from './Components/Hobbes'
+import Hobbies from './Components/Hobbies'
 import Contact from './Components/Contact'
 import SocialBar from './Components/SocialBar'
+import downloadIcon from './Images/download1.png'
 import './Css/App.css';
 
 class App extends Component {
@@ -21,12 +22,13 @@ class App extends Component {
               {labal:'Cell Phone:' ,info:'054-9989741'},
               {labal:'Email:' ,info:'dbello96@gmail.com'},
           ],
-          buttonName : "HOME"
+          buttonName: "HOME",
       }
   }
   chosePage = (passed) => {
       this.setState({buttonName : passed})
-  }
+  };
+
   componentActive = ()=> {
     if(this.state.buttonName === "HOME"){
         return(<InfoTable infoList={this.state.infoList} buttonName={this.state.buttonName}/>)
@@ -41,7 +43,7 @@ class App extends Component {
         return(<Skills/>)
     }
     else if(this.state.buttonName === "HOBBES"){
-        return(<Hobbes/>)
+        return(<Hobbies/>)
     }
     else if(this.state.buttonName === "CONTACT"){
         return(<Contact/>)
@@ -53,7 +55,10 @@ class App extends Component {
         <div className="App-header">
           <h2 class>Daniel Bello</h2>
             <h4>Software Engineer</h4>
-          <button className='resume-button'>Download My Resume</button>
+          <button className='resume-button'  type="submit">
+              <img src={downloadIcon}/>
+              <div> Download My Resume </div>
+          </button>
         </div>
         <div>
           <NavigationBar chosePage={this.chosePage} buttonName={this.state.buttonName}/>

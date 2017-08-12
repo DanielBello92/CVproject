@@ -11,14 +11,11 @@ class InfoComponent extends Component {
     }
 
     render() {
-        console.log("InfoComponent in!")
-
         return (
             <div className="InfoComponent">
                 <h3>{this.props.title}</h3>
                 {this.props.infoList.map((data, index)=>{
-                        return(
-
+                        return (
                             <div className="Info-Layout" key={index}>
                                 <div className="label">
                                     {data.labal}

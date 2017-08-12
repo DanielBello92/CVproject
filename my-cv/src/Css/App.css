@@ -38,13 +38,23 @@ h4{
   font-size: large;
 }
 .resume-button{
+  display: flex;
   width: 14%;
-  height: 25px;
+  height: 33px;
   border-radius: 15px;
   background-color: deepskyblue;
   color: aliceblue;
   border-style: none;
   margin-top: 4%;
   margin-left: 18%;
-  font-size: x-small;
+}
+.resume-button img{
+  width: 18px;
+  margin: auto 0 auto auto;
+}
+
+.resume-button div{
+  margin: auto;
+  font-size: 12px;
+  margin: auto auto auto 6px;
 }

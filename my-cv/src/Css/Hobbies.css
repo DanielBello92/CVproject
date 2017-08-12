@@ -1,0 +1,133 @@
+.hobbiesComponent{
+    width: 70%;
+    margin: auto;
+    background-color: lightgray;
+    margin-top: 0.5%;
+    box-shadow: 1px 10px 5px #888888;
+    border-top: 11px solid #32afe3;
+    display: flex;
+    flex-direction: column;
+}
+.hobbies-container {
+    height: 300px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+.hobby-content{
+    height: 94px;
+    width: 29%;
+    margin-left: 33px;
+}
+.text-message{
+    margin: 36px;
+    font-size: 20px;
+}
+
+.circle-top {
+    opacity: 0.5;
+    padding: 18px;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    margin-bottom: -130px;
+    margin-left: -70px;
+    background-size: 100% 100%;
+    background-image:  url(../Images/TKD2.jpg);
+    z-index: 1;
+    position: relative;
+    transition: all 1s ease-out;
+
+}
+.text-top {
+    visibility:hidden;
+    margin-left: 38px;
+    margin-top: 8px;
+    font-size: 19px;
+    font-weight: bold;
+    letter-spacing: .004em;
+    color: black;
+    z-index:10;
+    position: relative;
+    text-decoration: none;
+
+}
+.circle-top:hover .text-top {
+    visibility:visible;
+}
+.circle-top:hover {
+    transition: all 0.7s ease-in;
+    opacity: 1;
+    z-index: 5;
+    background-color: rgba(106, 101, 97, 0.9);
+}
+
+
+.circle-left {
+    padding: 18px;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    position: absolute;
+    margin-left: -160px;
+    opacity: 0.6;
+    z-index: 2;
+    background-size: 100% 100%;
+    background-image: url(../Images/got.jpg);
+    transition: all 1s ease-out;
+
+}
+.text-left {
+    visibility:hidden;
+    font-size: 19px;
+    font-weight: bold;
+    letter-spacing: .004em;
+    color: white;
+    text-decoration: none;
+    padding-right: 74px;
+    padding-top: 25px;
+    text-shadow: #000 0px 1px 3px;
+    margin-left: 13px;
+    text-align: center;
+}
+.circle-left:hover {
+    opacity: 1;
+    z-index: 5;
+    transition: all 0.7s ease-in;
+}
+.circle-left:hover .text-left {
+    visibility:visible;
+}
+
+
+.circle-right {
+    padding: 18px;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    margin-left: 17px;
+    z-index: 3;
+    position: absolute;
+    opacity: 0.6;
+    background-size: 100% 100%;
+    background-image: url(../Images/code.jpg);
+    transition: all 1s ease-out;
+
+}
+.text-right{
+    visibility:hidden;
+    font-weight: bold;
+    letter-spacing: .004em;
+    color: #FFFFFF;
+    margin: 25px 0 0 54px;
+    font-size: 22px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+.circle-right:hover {
+    opacity: 1;
+    z-index: 5;
+    transition: all 0.7s ease-in;
+}
+
+.circle-right:hover .text-right {
+    visibility:visible;
+}
