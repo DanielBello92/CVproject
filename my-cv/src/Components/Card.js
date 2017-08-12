@@ -4,14 +4,11 @@
 import React, { Component } from 'react';
 import '../Css/Card.css';
 import InfoComponent from './InfoComponent'
-import InputContact from './InputContact'
-
 
 class Card extends Component {
     constructor(props) {
         super(props);
     }
-
 
     render() {
         return (
@@ -24,7 +21,6 @@ class Card extends Component {
                 </div>
             </div>
         )
-
     }
 }
 

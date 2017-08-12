@@ -5,17 +5,16 @@ import React, { Component } from 'react';
 import '../Css/InfoTable.css';
 import InfoComponent from './InfoComponent'
 
-
 class InfoTable extends Component {
+
     constructor(props) {
         super(props);
-        this.state={
+        this.state= {
             title:'Personal info'
         }
     }
 
     render() {
-
         return (
             <div className="TableComponent">
                 <div className="Info-Layout-Left">
@@ -45,7 +44,6 @@ class InfoTable extends Component {
                 </div>
             </div>
         )
-
     }
 }
 

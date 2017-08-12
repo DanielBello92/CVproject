@@ -4,6 +4,7 @@
     background-color: lightgray;
     margin-top: 0.5%;
     box-shadow: 1px 10px 5px #888888;
+    border-top: 11px solid #32afe3;
 }
 .contact-container{
     border-top: 11px solid #32afe3;

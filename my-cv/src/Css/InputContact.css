@@ -36,4 +36,5 @@
     width: 170px;
     border-style: groove;
     border-color: lightskyblue;
+    cursor: pointer;
 }

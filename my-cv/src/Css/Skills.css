@@ -9,6 +9,7 @@
     background-color: lightgrey;
     box-shadow: 1px 10px 5px #888888;
     margin-top: 1%;
+    border-top: 11px solid #32afe3;
 }
 .head{
     padding-top: 35px;

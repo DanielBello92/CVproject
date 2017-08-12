@@ -6,11 +6,10 @@ import '../Css/Projects.css'
 import front from '../Images/front-end.jpeg'
 import android from '../Images/android.jpg'
 import reactjs from '../Images/React.jpg'
-import Card from './Card'
 
 class Projects extends Component {
 
-    constructor(props){
+    constructor(props) {
         super(props);
         this.state ={
             title:'Project',
@@ -23,15 +22,14 @@ class Projects extends Component {
     }
 
     render() {
-
         return (
             <div className="ProjectsComponent">
                 <div className="center-Layout">
                     <div className="projects-Layout">
                         <div className="flotingButtons">
-                            <button id='button' className="bounce animated"></button>
-                            <button id='button' className="bounce animated"></button>
-                            <button id='button' className="bounce animated"></button>
+                            <button id='button' className="bounce animated"/>
+                            <button id='button' className="bounce animated"/>
+                            <button id='button' className="bounce animated"/>
                         </div>
                     </div>
                     <div className="project-titles">
@@ -46,12 +44,8 @@ class Projects extends Component {
                     </div>
 
                 </div>
-                {/*<Card title={this.state.title} infoList={this.state.links} image={code}/>*/}
             </div>
-
-
         )
-
     }
 }
 

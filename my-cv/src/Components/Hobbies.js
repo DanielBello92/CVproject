@@ -12,20 +12,20 @@ class Hobbies extends Component {
         this.state = {
             hobbiesInfo: {
                 taekwondo: [
-                    {labal: 'Teakwondo:', info: 'A professional sportsman in the Taekwondo national team.'},
-                    {labal: '1997 - 2017:', info: 'Since I was five!'}
+                    {label: 'Teakwondo:', info: 'A professional sportsman in the Taekwondo national team.'},
+                    {label: '1997 - 2017:', info: 'Since I was five!'}
                 ],
                 coding: [
-                    {labal: 'Coding :', info: 'Yes, its a Hobby as you know'},
-                    {labal: '2007 - 2017:', info: 'I learn in my spear Time. '}
+                    {label: 'Coding :', info: 'Yes, its a Hobby as you know'},
+                    {label: '2007 - 2017:', info: 'I learn in my spear Time. '}
                 ],
                 tv: [
                     {
-                        labal: 'TV shows/Movies :',
+                        label: 'TV shows/Movies :',
                         info: 'I\'m watching right now Game Of Thrones, Vikings, The Black List , and for the fist time in my history - completing all Friends' +
                         ' seasons'
                     },
-                    {labal: '1992 - Today:', info: 'When I need to clear my mind! '}
+                    {label: '1992 - Today:', info: 'When I need to clear my mind! '}
                 ]
             },
             hobbyText: <div className="text-message"> Hover the circles </div>
@@ -40,7 +40,7 @@ class Hobbies extends Component {
         }
     };
 
-    renderCircle(position, hobby, hobbyTitle){
+    renderCircle(position, hobby, hobbyTitle) {
         return (
             <div className={`circle-${position}`} onMouseOver={() => {this.updateHobby(this.state.hobbiesInfo[hobby])}}
                 onMouseLeave={() => {this.updateHobby("message")}}>
@@ -64,7 +64,6 @@ class Hobbies extends Component {
                 </div>
             </div>
         )
-
     }
 }
 

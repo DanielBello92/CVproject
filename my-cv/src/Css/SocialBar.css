@@ -1,13 +1,13 @@
 .SocialComponent{
     width: 70%;
     margin: auto;
-    background-color: lightgray;
+    background: linear-gradient(deepskyblue, skyblue);
     margin-top: 1%;
     box-shadow: 1px 10px 5px #888888;
     text-align: center;
 }
 .icons{
-    width: 4%;
+    width: 3%;
     padding: 1%;
     /* margin: auto; */
     margin-left: 6%;

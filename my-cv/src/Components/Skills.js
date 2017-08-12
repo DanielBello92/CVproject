@@ -7,7 +7,7 @@ import '../Css/Skills.css'
 
 class Skills extends Component {
 
-    constructor(props){
+    constructor(props) {
         super(props);
         this.state ={
             testData: [
@@ -25,20 +25,16 @@ class Skills extends Component {
     }
 
     render() {
-
         return (
             <div className="SkillsComponent"  >
                 <div id="slide-bars">
-                    <h1 className="head" >Mad Skills</h1>
+                    <h1 className="head"> Mad Skills </h1>
                     <div className="Skills-Layout">
-                        <Bars className="bars-Component" data={this.state.testData} makeUppercase={true}></Bars>
+                        <Bars className="bars-Component" data={this.state.testData} makeUppercase={true}/>
                     </div>
                 </div>
             </div>
-
-
         )
-
     }
 }
 

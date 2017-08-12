@@ -14,7 +14,6 @@ class InputContact extends Component {
         super(props);
     }
 
-
     render() {
         return (
             <div className="InputContactComponent">
@@ -42,7 +41,6 @@ class InputContact extends Component {
                 </div>
             </div>
         )
-
     }
 }
 

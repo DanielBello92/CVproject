@@ -6,12 +6,12 @@ import '../Css/Contact.css';
 import InputContact from './InputContact'
 
 class Contact extends Component {
+
     constructor(props) {
         super(props);
     }
 
     render() {
-
         return (
             <div className="ContactComponent">
                 <div className="contact-container">
@@ -19,7 +19,6 @@ class Contact extends Component {
                 </div>
             </div>
         )
-
     }
 }
 

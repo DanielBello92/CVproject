@@ -8,17 +8,14 @@ class NavigationBar extends Component {
 
     constructor(props){
         super(props);
-
-
     }
+
     renderButtonName(passed){
         return((passed === this.props.buttonName)?"Buttons-selected":"Buttons")
     }
 
     render() {
-
         return (
-
             <div className="NavigationComponent">
                 <div className="Buttons-Layout-Left">
                     <button className={this.renderButtonName('HOME')} onClick={()=>{this.props.chosePage('HOME')}} > HOME </button>
@@ -34,10 +31,7 @@ class NavigationBar extends Component {
                     <button className={this.renderButtonName('CONTACT')} onClick={()=>{this.props.chosePage('CONTACT')}}> CONTACT </button>
                 </div>
             </div>
-
-
         )
-
     }
 }
 

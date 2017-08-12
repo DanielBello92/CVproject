@@ -16,11 +16,11 @@ class App extends Component {
       super(props);
       this.state = {
           infoList : [
-              {labal:'Date of birth:' ,info:'28/04/92'},
-              {labal:'Place of birth:' ,info:'Israel'},
-              {labal:'Address:' ,info:'8 Ami St., Rehovot'},
-              {labal:'Cell Phone:' ,info:'054-9989741'},
-              {labal:'Email:' ,info:'dbello96@gmail.com'},
+              {label:'Date of birth:' ,info:'28/04/92'},
+              {label:'Place of birth:' ,info:'Israel'},
+              {label:'Address:' ,info:'8 Ami St., Rehovot'},
+              {label:'Cell Phone:' ,info:'054-9989741'},
+              {label:'Email:' ,info:'dbello96@gmail.com'},
           ],
           buttonName: "HOME",
       }
