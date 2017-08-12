@@ -33,10 +33,31 @@ class Hobbes extends Component {
     render() {
 
         return (
-            <div className="EducationComponent">
-                <Card title={this.state.titleTeakwondo} infoList={this.state.infoListTeakwondo} image={tkd}/>
-                <Card title={this.state.titleCodeing} infoList={this.state.infoListCodeing} image={code}/>
-                <Card title={this.state.titleShows} infoList={this.state.infoListShows} image={gameOfThrones}/>
+            <div className="hobbiesComponent">
+                <div className="hobbies-container">
+                    <div className="circle-top">
+                        <div className="text-top">
+                            Taekwondo
+                        </div>
+                    </div>
+                    <div>
+
+                    </div>
+                    <div className="circle-left">
+                        <div className="text-left">
+                            Series And Movies
+                        </div>
+                    </div>
+
+                    <div className="circle-right">
+                        <div className="text-right">
+                            Coding
+                        </div>
+                    </div>
+                </div>
+                {/*<Card title={this.state.titleTeakwondo} infoList={this.state.infoListTeakwondo} image={tkd}/>*/}
+                {/*<Card title={this.state.titleCodeing} infoList={this.state.infoListCodeing} image={code}/>*/}
+                {/*<Card title={this.state.titleShows} infoList={this.state.infoListShows} image={gameOfThrones}/>*/}
             </div>
         )
 

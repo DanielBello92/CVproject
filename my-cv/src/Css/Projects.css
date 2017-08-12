@@ -4,10 +4,11 @@
     background-color: lightgray;
     margin-top: 0.5%;
     box-shadow: 1px 10px 5px #888888;
+    border-top: 11px solid #32afe3;
 }
 .center-Layout{
     margin: auto;
-    width: 50%;
+    width: 555px;
     /* border: 1px solid; */
     height: 182px;
     text-align: center;
@@ -49,4 +50,11 @@
 }
 .project-images{
     width: 87px;
+    height: 157px;
+    margin: auto;
+    margin-left: 43px;
+    margin-right: 43px;
+    margin-top: 16px;
+    border: 2px solid;
+    border-radius: 14px;
 }

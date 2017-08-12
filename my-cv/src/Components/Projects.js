@@ -5,6 +5,7 @@ import React, { Component } from 'react';
 import '../Css/Projects.css'
 import front from '../Images/front-end.jpeg'
 import android from '../Images/android.jpg'
+import reactjs from '../Images/React.jpg'
 import Card from './Card'
 
 class Projects extends Component {
@@ -41,7 +42,7 @@ class Projects extends Component {
                     <div className="projects-links">
                         <a href="https://www.linkedin.com/in/daniel-bello-702804127/"><img className="project-images" src={android}/></a>
                         <a href="https://mycellcard.000webhostapp.com/"><img className="project-images" src={front}/></a>
-                        <a href="https://github.com/DanielBello92/RedditGallery"><img src=""/></a>
+                        <a href="https://github.com/DanielBello92/RedditGallery"><img className="project-images" src={reactjs}/></a>
                     </div>
 
                 </div>
