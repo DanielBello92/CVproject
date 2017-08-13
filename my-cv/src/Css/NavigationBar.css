@@ -8,6 +8,7 @@
 .Buttons-Layout-Left{
     margin: auto;
     height: 100%;
+    width: 33%;
 }
 .Buttons-Layout-Middle{
     margin: auto;
@@ -17,6 +18,7 @@
 .Buttons-Layout-Right{
     margin: auto;
     height: 100%;
+    width: 33%;
 }
 .Buttons{
      height: 100%;
@@ -26,7 +28,7 @@
      margin: auto;
      border-style: hidden;
      box-shadow: 0px 1px 5px #888888;
-     width: 85px;
+     width: 33%;
  }
 .Buttons:hover{
     cursor: pointer;
@@ -41,7 +43,7 @@
     margin: auto;
     border-style: hidden;
     box-shadow: 0px 1px 5px #888888;
-    width: 85px;
+    width: 33%;
 }
 .profilePic{
     height: 150px;
